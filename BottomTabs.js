@@ -21,13 +21,13 @@ const SupermarketStack = () => {
 export default function BottomTabs() {
   return (
     <Tab.Navigator
-      initialRouteName="Supermarket"
+      initialRouteName="SupermarketStack"
       screenOptions={{
         tabBarActiveTintColor: '#e91e63',
         headerShown: false,
       }}>
       <Tab.Screen
-        name="Supermarket"
+        name="SupermarketStack"
         component={SupermarketStack}
         options={{
           tabBarIcon: ({color, size}) => (
